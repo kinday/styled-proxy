@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "@rushplay/rushplay",
+    "@rushplay/rushplay/react"
+  ],
+  "env": {
+    "node": true
+  }
+}

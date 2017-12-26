@@ -1,0 +1,48 @@
+{
+  "name": "styled-proxy",
+  "version": "1.0.0",
+  "description": "Avoid creating DOM nodes while using styled components",
+  "license": "MIT",
+  "author": "Leonard Kinday <leonard@kinday.ru>",
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "devDependencies": {
+    "@rushplay/eslint-config-rushplay": "^2.2.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^3.19.0",
+    "eslint-plugin-dependencies": "^2.4.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.5.0",
+    "eslint-plugin-react": "^7.5.1",
+    "husky": "^0.14.3",
+    "jest": "^22.0.4",
+    "lint-staged": "^6.0.0",
+    "prettier": "^1.9.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-test-renderer": "^16.2.0",
+    "sort-package-json": "^1.7.1"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --write",
+      "jest --findRelatedTests",
+      "git add"
+    ],
+    "package.json": [
+      "sort-package-json",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "bracketSpacing": false,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
