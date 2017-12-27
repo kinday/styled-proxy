@@ -4,8 +4,13 @@
   "description": "Avoid creating DOM nodes while using styled components",
   "license": "MIT",
   "author": "Leonard Kinday <leonard@kinday.ru>",
+  "main": "index.js",
   "scripts": {
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "test": "jest"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0"
   },
   "devDependencies": {
     "@rushplay/eslint-config-rushplay": "^2.2.0",
@@ -26,6 +31,9 @@
     "react-dom": "^16.2.0",
     "react-test-renderer": "^16.2.0",
     "sort-package-json": "^1.7.1"
+  },
+  "peerDependencies": {
+    "react": "^15.0.0 || ^16.0.0"
   },
   "lint-staged": {
     "*.js": [

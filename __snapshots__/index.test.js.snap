@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<StyledProxy /> DOM renders nothing 1`] = `""`;
+
+exports[`<StyledProxy /> DOM renders only child (multiple wrappers) 1`] = `"<span class=\\"bg flex padding\\">Hello!</span>"`;
+
+exports[`<StyledProxy /> DOM renders only child (single wrapper) 1`] = `"<span class=\\"generated\\">Hello!</span>"`;
+
+exports[`<StyledProxy /> DOM renders to wrapping <div> 1`] = `"<div class=\\"generated\\"><span>Hello!</span></div>"`;
