@@ -1,5 +1,12 @@
 <h1 align="center">&lt;StyledProxy&gt;</h1>
 <h5 align="center">Avoid unneeded DOM nodes while using CSS-in-JS components</h5>
+<div align="center">
+
+[![Code style: prettier][prettier-badge]][prettier]
+[![Build Status][travis-badge]][travis]
+[![codecov][codecov-badge]][codecov]
+
+</div>
 
 This small component allows to create visual primitives without excessive DOM pollution. Designed to be library-agnostic. Tested with `styled-components`.
 
@@ -143,3 +150,10 @@ Resulting HTML:
 ## License
 
 MIT © Leonard Kinday
+
+[codecov]: https://codecov.io/gh/kinday/styled-proxy
+[codecov-badge]: https://codecov.io/gh/kinday/styled-proxy/branch/master/graph/badge.svg
+[prettier]: https://github.com/prettier/prettier
+[prettier-badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg
+[travis]: https://travis-ci.org/kinday/styled-proxy
+[travis-badge]: https://travis-ci.org/kinday/styled-proxy.svg?branch=master
