@@ -2,6 +2,7 @@
 <h5 align="center">Avoid unneeded DOM nodes while using CSS-in-JS components</h5>
 <div align="center">
 
+[![npm][npm-badge]][npm]
 [![Code style: prettier][prettier-badge]][prettier]
 [![Build Status][travis-badge]][travis]
 [![codecov][codecov-badge]][codecov]
@@ -153,6 +154,8 @@ MIT © Leonard Kinday
 
 [codecov]: https://codecov.io/gh/kinday/styled-proxy
 [codecov-badge]: https://codecov.io/gh/kinday/styled-proxy/branch/master/graph/badge.svg
+[npm]: https://www.npmjs.com/package/styled-proxy
+[npm-badge]: https://img.shields.io/npm/v/styled-proxy.svg
 [prettier]: https://github.com/prettier/prettier
 [prettier-badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg
 [travis]: https://travis-ci.org/kinday/styled-proxy
