@@ -34,7 +34,7 @@
     "sort-package-json": "^1.7.1"
   },
   "peerDependencies": {
-    "react": "^15.0.0 || ^16.0.0"
+    "react": "^16.0.0"
   },
   "jest": {
     "coverageDirectory": "./coverage/",
