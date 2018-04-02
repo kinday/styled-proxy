@@ -26,9 +26,9 @@ function StyledProxy(props) {
   }
 
   if (props.children) {
-    return React.Children.map(props.children, child =>
-      React.cloneElement(child, extraProps)
-    )
+    return React.Children.map(props.children, function(child) {
+      return React.cloneElement(child, extraProps)
+    })
   }
 
   return null
