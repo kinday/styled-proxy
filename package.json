@@ -1,6 +1,6 @@
 {
   "name": "styled-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Avoid creating DOM nodes while using CSS-in-JS components",
   "license": "MIT",
   "author": "Leonard Kinday <leonard@kinday.ru>",
